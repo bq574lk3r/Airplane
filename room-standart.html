@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Airplane</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="shortcut icon" href="/img/Icon-logo.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <section class="top">
+      <header>
+        <script type="module" src="components/Header.js"></script>
+      </header>
+      <div class="top-section top-hotel">
+        <div class="top-hotel-filter">
+          <h1>Номер “Стандарт”</h1>
+        </div>
+      </div>
+    </section>
+    <section class="offer">
+        <div class="offer-section">
+            <div class="offer-section-picture picture-room">
+              <img id="largeImg" src="img/room-standart.png" alt="room" />
+            </div>
+            <div class="offer-section-description room-standart">
+              <h2>Номер “Стандарт”</h2>
+              <p class="offer-text">
+                Одна полуторная кровать, кондиционер, телевизор, телефон, спутниковое телевещание,
+                мини-бар, отопление, ковровое покрытие, душ, фен, халат, туалетные принадлежности,
+                махровые тапочки, электрический чайник, услуга "звонок-будильник"
+              </p>
+              <div>
+                <a href=""><button class="look-btn">Забронировать</button></a>
+              </div>
+              <div>
+                <div class="item-offer">
+                  <svg class="item-svg">
+                    <use href="#utensils" />
+                  </svg>
+                  <h5>Комплексные обеды</h5>
+                </div>
+                <div class="item-offer">
+                  <div class="item-svg">
+                    <svg>
+                      <use href="#wi-fi" />
+                    </svg>
+                  </div>
+                  <h5>Бесплатный Wi-Fi</h5>
+                </div>
+                <div class="item-offer">
+                  <div class="item-svg">
+                    <svg>
+                      <use href="#satellite" />
+                    </svg>
+                  </div>
+                  <h5>Спутниковое ТВ</h5>
+                </div>
+                <div class="item-offer">
+                  <div class="item-svg">
+                    <svg>
+                      <use href="#shower" />
+                    </svg>
+                  </div>
+                  <h5>Душ</h5>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-photo" id="gallery">
+                <li><a href="/img/room-standart.png" title="Image 1"><img class="thumbnail" src="/img/room-standart.png" alt="room-standart"></a></li>
+                <li><a href="/img/room-standart-2.png" title="Image 2"><img class="thumbnail" src="/img/room-standart-2.png" alt="room-standart"></a></li>
+                <li><a href="/img/room-standart-3.png" title="Image 3"><img class="thumbnail" src="/img/room-standart-3.png" alt="room-standart"></a></li>
+                <li><a href="/img/room-standart-4.png" title="Image 4"><img class="thumbnail"src="/img/room-standart-4.png" alt="room-standart"></a></li>
+            </div>
+          </div>
+         
+          <div class="client-cards">
+            <h2 >Также мы предлагаем</h2>
+            <a href=""><div class="client-card hotel-card">
+              <img src="/img/client-card.png" alt="client-card" />
+              <h3>Номер “Люкс”</h5>
+              <p class="offer-text">
+                Одна полуторная кровать, кондиционер, телевизор, телефон, спутниковое телевещание, мини-бар, отопление, ковровое покрытие, душ
+              </p>
+            </div></a>
+            <a href=""><div class="client-card hotel-card">
+                <img src="/img/client-card.png" alt="client-card" />
+                <h3>Двухместный номер</h5>
+                <p class="offer-text">
+                    Двухместная кровать, кондиционер, телевизор, телефон, спутниковое телевещание, мини-бар, отопление, ковровое покрытие, душ
+                </p>
+              </div></a>
+              <a href=""><div class="client-card hotel-card">
+                <img src="/img/client-card.png" alt="client-card" />
+                <h3>Трехместный номер</h5>
+                <p class="offer-text">
+                    Три полуторных кровати, кондиционер, телевизор, телефон, спутниковое телевещание, мини-бар, отопление, ковровое покрытие, душ
+                </p>
+              </div></a>
+          </div>
+      <div class="offer-items" id="offer-items">
+        <script src="/components/Offer-items.js"></script>
+      </div>
+    </section>
+    <script type="module" src="/scripts/gallery-room.js"></script>
+  </body>
+
+  <footer>
+    <script type="module" src="/components/Footer.js"></script>
+  </footer>
+</html>

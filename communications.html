@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Airplane</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="shortcut icon" href="/img/Icon-logo.svg" type="image/x-icon" />
+  </head>
+  <header>
+    <script type="module" src="components/Header.js"></script>
+  </header>
+  <body>
+    <section class="top">
+
+      <div class="top-section top-about">
+        <div class="top-hotel-filter">
+          <h1>Контакты</h1>
+        </div>
+      </div>
+    </section>
+    <section class="offer">
+      <div class="offer-section r-img">
+        <div class="offer-section-description contacts">
+          <p class="offer-text"><b>Минский район д. Тюхиничи.</b><p class="offer-text">
+
+          <p class="offer-text">
+            <b>Ресторан:</b>
+            <br>Тел.: +375 (162) 29-75-76 
+            <br>Тел.: +375 (29) 209-75-88 
+            <br>Факс: +375 (162) 29-75-77
+          </p>
+
+          <p class="offer-text">
+            <b> Гостиница:</b>
+            <br> Тел.: +375 (29) 209-75-76
+            <br>Тел.: +375 (162) 58-01-01
+            <br>Факс: +375 (162) 51-80-51
+            
+          </p>
+          <p class="offer-text">
+            <b>E-mail:</b> comfort_minsk@mail.ru
+            <br><b>GPS:</b> N 52.1520 E 23.6766
+            
+        </p>
+        <p class="offer-text">
+            <b></b>Почтовый адрес:</b> 225039 Минск обл., Брестский р-н, Мотыкальский с/с, М1, 8-ой км, 2
+        </p>
+        <p class="offer-text">
+            <b> Объективный:</b> пересечение трассы М1 и Р16, практически на Каменецком кольце, ехать на Высокое, не въезжая в деревню Тюхиничи - съезд налево
+
+        </p>
+        
+        <form name="form" action="" method="post">
+            <div><h3>Форма обратной связи</h3></div>
+            <div><input placeholder="Имя" class="input" name="name" type="text"/>
+            <input placeholder="E-mail" class="input" name="email" type="text"/></div>
+            <div><textarea placeholder="Сообщение" name="message"></textarea></div>
+            <div class="form-btn-box"><button class="form-btn" id="submit" value="Отправить" type="button"> отправить</button></div>
+        </form>
+        </div>
+        <div class="offer-section-picture picture-constacts">
+          <img src="/img/airplane.png" alt="airplane" />
+          <img class="pic-about" src="/img/airplane-2.png" alt="airplane" />
+        </div>
+      </div>
+      <div class="offer-items" id="offer-items">
+        <script type="module" src="components/Offer-items.js"></script>
+      </div>
+    </section>
+  </body>
+  <footer>
+    <script type="module" src="components/Footer.js"></script>
+  </footer>
+</html>
