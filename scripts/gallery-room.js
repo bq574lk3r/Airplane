@@ -5,7 +5,7 @@ gallery.onclick = function(event) {
     showThumbnail(thumbnail.href, thumbnail.title);
     event.preventDefault();
   }
-
+  //show img
   function showThumbnail(href, title) {
     largeImg.src = href;
   }
